@@ -1,0 +1,18 @@
+ @import url('https://fonts.googleapis.com/css2?family=Ribeye+Marrow&family=Syne+Mono&display=swap');
+body{
+   font-family: "Ribeye Marrow", serif;
+  font-weight: 200;
+  font-style: normal;
+  color: blue;
+  background-color: blanchedalmond;
+  font-size: 24px;
+}
+.fonts{
+  font-family: "Syne Mono", monospace;
+    font-weight: 400;
+    font-style: italic;
+}
+
+h1{
+  font-variant: small-caps;
+}
