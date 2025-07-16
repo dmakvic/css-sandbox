@@ -1,18 +1,63 @@
  @import url('https://fonts.googleapis.com/css2?family=Ribeye+Marrow&family=Syne+Mono&display=swap');
+
+ html{
+  font-size: 16px;
+ }
+
 body{
    font-family: "Ribeye Marrow", serif;
   font-weight: 200;
   font-style: normal;
-  color: blue;
-  background-color: blanchedalmond;
-  font-size: 24px;
+  color: #0000FF;
+  background-color: #FFEBCD;
+  
 }
 .fonts{
   font-family: "Syne Mono", monospace;
     font-weight: 400;
     font-style: italic;
+    text-align: center;
+    font-variant: small-caps;
+    color: #B22222;
 }
+p{
+  text-align: justify;
+  line-height: 1.5;
+  text-indent: 80px;
+  text-indent: 4em;
+  text-transform: none;
+  
+}
+h1{font-size: 7.594rem;
+letter-spacing: 1px;
+text-shadow: 0px 0px 4px black;
+}
+h2{font-size: 5.063rem;}
+h3{font-size: 3.75rem;}
+h4{font-size: 2.25rem;}
+h4{font-size: 1.5rem;}
+h6{font-size: 1rem;}
+  
 
-h1{
-  font-variant: small-caps;
+strong{
+  background-color: #0000FF;
+  color: white;
+  text-decoration: underline;
+}
+.color{
+  background-color: gray;
+  color: white;
+  font-size: 50px;
+  font-weight: 800;
+  text-align: center;
+  text-shadow:2px 2px 0px red, 4px 4px 0px orange, 6px 6px 0px yellow,8px 8px 0px green, 10px 10px 0px blue, 12px 12px 0px blueviolet, 14px 14px 0px purple;
+}
+.ipsum{
+  color: white;
+  background-color: aqua;
+  font-size: 50px;
+  font-weight: 700;
+  text-align: center;
+  text-shadow: -2px 2px 0px cyan, -4px 4px 0px skyblue, -8px 8px 0px lightblue, -10px 10px 0px lightsteelblue;
+  
 }
