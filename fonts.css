@@ -9,7 +9,11 @@ body{
   font-weight: 200;
   font-style: normal;
   color: #0000FF;
-  background-color: #FFEBCD;
+  /*background-color: #FFEBCD;*/
+  background-image: url("./background.jpg");
+
+ 
+
   
 }
 .fonts{
@@ -19,6 +23,9 @@ body{
     text-align: center;
     font-variant: small-caps;
     color: #B22222;
+    border: 2px dotted greenyellow;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 p{
   text-align: justify;
@@ -26,6 +33,9 @@ p{
   text-indent: 80px;
   text-indent: 4em;
   text-transform: none;
+  margin-left: 10px;
+  margin-right: 10px;
+  border: 4px dashed  palevioletred;
   
 }
 h1{font-size: 7.594rem;
@@ -60,4 +70,32 @@ strong{
   text-align: center;
   text-shadow: -2px 2px 0px cyan, -4px 4px 0px skyblue, -8px 8px 0px lightblue, -10px 10px 0px lightsteelblue;
   
+}
+.wrapper{
+  width: 100%;
+  max-width: 800px;
+  border: 4px inset cyan;
+  padding-left: auto;
+  padding-right: auto;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+}
+ul{
+  margin-left: 20px;
+  margin-right: 20px;
+  border: 4px dashed orangered;
+
+}
+ol{
+  border-style: dashed solid;
+  border-color: magenta;
+  border-radius: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+dl{
+  border: 2px dotted lightcoral;
+  margin-left: 10px;
+  margin-right: 10px;
 }
